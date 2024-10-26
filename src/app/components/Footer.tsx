@@ -14,13 +14,13 @@ const Footer = () => {
             <a href='https://t.me/neoblockchainbank' target='_blank'>
               <FaTelegram className='text-2xl text-blue-500'/>
             </a>
-            <a  href='https://www.facebook.com/profile.php?id=61561880461431' href='_blank'>
+            <a  href='https://www.facebook.com/profile.php?id=61561880461431' target='_blank'>
               <FaFacebook className='text-2xl text-blue-500'/>
             </a>
-            <a href='https://x.com/Neo_bcb' href='_blank'>
+            <a href='https://x.com/Neo_bcb' target='_blank'>
               <FaTwitter className='text-2xl text-blue-500'/>
             </a>
-            <a href='https://www.instagram.com/neoblockchain_bank?igsh=MW94b2FqaWJhaHI4ag%3D%3D' href='_blank'>
+            <a href='https://www.instagram.com/neoblockchain_bank?igsh=MW94b2FqaWJhaHI4ag%3D%3D' target='_blank'>
               <FaInstagram className='text-2xl text-orange-500'/>
             </a>
           </div>
