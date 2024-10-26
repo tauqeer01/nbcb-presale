@@ -24,7 +24,7 @@ const Home: NextPage = () => {
     const price = e.target.value;
     setEnteredPrice(price);
     const calculatedAmount = parseFloat(price) / nbcbRate;
-    setNbcbAmount(isNaN(calculatedAmount) ? 0 : calculatedAmount.toFixed(4));
+    setNbcbAmount(isNaN(calculatedAmount) ? 0 : parseFloat(calculatedAmount.toFixed(4)));
   };
 
   return (
